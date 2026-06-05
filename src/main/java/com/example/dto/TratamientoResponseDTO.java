@@ -12,5 +12,6 @@ private String medicamento;
 private Double dosis;
 private String fechaInicio;
 private String fechaFin;
+ Integer veterinarioId;
 private String estado;
 }

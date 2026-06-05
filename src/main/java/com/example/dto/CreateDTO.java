@@ -17,6 +17,8 @@ public record CreateDTO (
     @NotBlank(message = "Debe ingresar la fecha en que inicio el tratamiento")
       String fechaInicio, 
 
+    @NotNull Integer veterinarioId,
+    
     @NotBlank(message = "Debe ingresar la fecha del fin del tratamiento ") 
       String fechaFin,
 

@@ -25,6 +25,9 @@ public class Tratamiento{
     @Column(name = "dosis", nullable = false, length = 100, unique = true)
     private Double dosis;
 
+    @Column(name = "veterinarioId", nullable = false)
+    private Integer veterinarioId;
+
     @Column(name = "fechaInicio", nullable =false, length = 100, unique = true)
     private String fechaInicio;
 
